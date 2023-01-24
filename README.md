@@ -16,7 +16,7 @@ Currently, all of their data resides within JSON files of two types- song data f
 
 4) SSH into the master node of the EMR cluster using ```ssh -i PATH_TO_KEY_PAIR_FILE hadoop@MASTER_NODE_PUBLIC_DNS```
 
-5) Copy over the dl.cfg anf etl.py files from the cloned Git repository onto the master node EC2 instance using:
+5) Copy over the dl.cfg and etl.py files from the cloned Git repository onto the master node EC2 instance using:
 
 ```scp -i PATH_TO_KEY_PAIR_FILE PATH_TO_FILE_TO_COPY hadoop@MASTER_NODE_PUBLIC_DNS:~/FOLDER_ON_MASTER_NODE_WHERE_TO_COPY```
 
